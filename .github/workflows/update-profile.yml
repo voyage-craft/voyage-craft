@@ -37,4 +37,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: auto update profile README"
-          file_pattern: README.md
+          file_pattern: README.md assets/generated/dashboard.svg

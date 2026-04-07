@@ -1,0 +1,18 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">voyage-craft about panel</title>
+  <desc id="desc">Unified about panel for voyage-craft</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330"><stop stop-color="#020617"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#312E81"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 70) rotate(140) scale(520 260)"><stop stop-color="#8B5CF6" stop-opacity="0.48"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="330" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="30" fill="url(#glow)"/>
+  <rect x="42" y="40" width="1116" height="250" rx="26" fill="#020617" fill-opacity="0.55" stroke="#22D3EE" stroke-opacity="0.26"/>
+  <text x="86" y="104" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="34" font-weight="800">about voyage-craft</text>
+  <text x="86" y="156" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23">A living GitHub profile shaped as one coherent interface.</text>
+  <text x="86" y="196" fill="#CBD5E1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23">Repositories, language signals, stars, forks and update activity flow into one neon dashboard.</text>
+  <text x="86" y="236" fill="#A5F3FC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21" font-weight="700">Theme: tokyo-night glass · cyan/violet/pink · self-hosted SVG assets</text>
+  <circle cx="1014" cy="154" r="68" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.55"/>
+  <circle cx="1014" cy="154" r="34" fill="#EC4899" fill-opacity="0.18" stroke="#EC4899" stroke-opacity="0.65"/>
+  <path d="M946 154H1082M1014 86V222" stroke="#F8FAFC" stroke-opacity="0.38" stroke-width="3"/>
+</svg>
