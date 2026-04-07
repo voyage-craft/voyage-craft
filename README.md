@@ -21,7 +21,34 @@
 ## 自动同步数据
 
 <!-- PROFILE_SYNC_START -->
-> 首次启用后，GitHub Actions 会自动填充这里的仓库数据。
+<div align="center">
+
+| 公开仓库 | 项目 Stars | 项目 Forks | Followers | Following |
+| ---: | ---: | ---: | ---: | ---: |
+| 1 | 0 | 0 | 0 | 0 |
+
+</div>
+
+### 语言概览
+
+<p>
+<img src="https://img.shields.io/badge/JavaScript%201-0d1117?style=flat-square&labelColor=161b22" alt="JavaScript" />
+</p>
+
+### 精选仓库
+
+<a href="https://github.com/voyage-craft/voyage-craft">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=voyage-craft&repo=voyage-craft&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&icon_color=ec4899" alt="voyage-craft" />
+</a>
+
+<sub>No description yet. · ⭐ 0 · 🍴 0 · JavaScript</sub>
+
+
+### 最近更新
+
+- [voyage\-craft](https://github.com/voyage-craft/voyage-craft) · JavaScript · 更新于 2026-04-07
+
+<sub>最后自动同步：2026-04-07 15:09 UTC</sub>
 <!-- PROFILE_SYNC_END -->
 
 ## 技术栈与工具
