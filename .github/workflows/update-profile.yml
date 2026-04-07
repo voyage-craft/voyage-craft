@@ -1,0 +1,40 @@
+name: Update Profile README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "scripts/update-profile.mjs"
+      - ".github/workflows/update-profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: node scripts/update-profile.mjs
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto update profile README"
+          file_pattern: README.md
